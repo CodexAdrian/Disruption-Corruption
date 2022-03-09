@@ -1,4 +1,4 @@
-package me.sizableshrimp.examplemod;
+package me.codexadrian.dandc;
 
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -6,13 +6,13 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(ExampleMod.MODID)
+@Mod(DisruptionCorruption.MODID)
 @Mod.EventBusSubscriber
-public class ExampleMod {
-    public static final String MODID = "examplemod";
+public class DisruptionCorruption {
+    public static final String MODID = "dandc";
     public static final Logger LOGGER = LogManager.getLogger();
 
-    public ExampleMod() {}
+    public DisruptionCorruption() {}
 
     @SubscribeEvent
     public static void onServerStarting(FMLServerStartingEvent event) {
